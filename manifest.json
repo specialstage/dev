@@ -1,0 +1,22 @@
+{
+  "short_name": "𝙨𝙥𝙚𝙘𝙞𝙖𝙡𝙨𝙩𝙖𝙜𝙚.𝙞𝙤",
+  "name": "",
+  "icons": [
+    {
+      "src": "/dev/icons/stage_icon_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/dev/icons/stage_icon_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/dev/index.html",
+  "background_color": "#1f1f1f",
+  "display": "fullscreen",
+  "theme_color": "#1f1f1f",
+  "orientation": "portrait",
+  "scope": "/dev"
+}
