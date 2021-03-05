@@ -50,11 +50,11 @@ image-rendering: pixelated;
 
 z-index: 99;
 
-cursor: default;
-
 position: fixed;
 
-background-image: url('../img/promo.png');
+cursor: crosshair;
+
+/* background-image: url('../img/promo.png'); */
 
 background-size: contain;
 
@@ -84,9 +84,9 @@ background-size: contain;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
-	background-image: url(../image/promo.gif);
+/* 	background-image: url(../image/promo.gif);
 	background-color: #d9b5ff;
-	mix-blend-mode: lighten;
+	mix-blend-mode: lighten; */
 
 }
 
@@ -94,6 +94,11 @@ a{
 	display: block;
 	position: fixed;
 	z-index: 400;
+	cursor: crosshair;
+}
+
+a:hover{
+/* 	cursor: crosshair; */
 }
 
 input, form{
